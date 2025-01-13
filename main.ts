@@ -363,8 +363,8 @@ namespace SRLE {
     //% weight=100
     //% blockId=SRLE_IoT_WIFI block="Connect to SRLE IoT School WiFi"
     export function SRLE_IoT_WIFI(): void {
-        let SSID = "SNET01";
-        let PASSWORD = "openday3619";
+        let SSID = "SNET-T2";
+        let PASSWORD = "SRLengT2";
         SRLE_setPara(SETWIFI_NAME, SSID)
         SRLE_setPara(SETWIFI_PASSWORLD, PASSWORD)
         SRLE_runCommand(CONNECT_WIFI)
